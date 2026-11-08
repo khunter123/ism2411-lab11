@@ -6,13 +6,17 @@
 # 1. In Exercise 3 you saw the difference between .get() and bracket notation.
 #    When in real work would you use each one, and what's your rule of thumb?
 #
-#    TODO: your answer here
+#     I would use bracket notation when I'm certain a key exists and want my code to fail fast if it's missing,
+#     whereas I'd use .get() when dealing with messy external data or optional fields where a missing key is normal. 
+#     My rule of thumb is to use brackets for required configuration or database fields and .get() with a default value for user inputs or API responses.
 #
 # 2. Exercise 8 built a summary dictionary with a loop. What does this remind
 #    you of from Excel, and why might the Python version be more useful for
 #    large datasets?
 #
-#    TODO: your answer here
+#    This loop reminds me of an Excel PivotTable or a SUMIFS function that aggregates sales numbers by a specific category like region.
+#    The Python version is much better for large datasets because it avoids Excel's row limits, runs much faster, and can easily automate 
+#    processing millions of records without manual spreadsheet manipulation.
 
 
 # ---------------------------------------------------------------------------
